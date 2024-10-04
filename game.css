@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(243, 197, 232);
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: rgb(54, 1, 54);
+    color: rgb(243, 197, 232);
+    text-align: center;
+    height: 4rem;
+    line-height: 4rem;
+}
+.choices{
+    margin-top: 4rem;
+    justify-content: center;
+    display: flex;
+}
+.choice{
+    
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 5rem;
+}
+#user-score, #comp-score{
+    margin-top: 1.5rem;
+    gap: 4rem;
+    font-size: 3rem;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.msg-container{
+    margin-top: 2rem;
+}
+#msg{
+    background-color: rgb(3, 68, 46);
+    color: azure;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
